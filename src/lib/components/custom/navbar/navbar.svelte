@@ -6,8 +6,10 @@
   import Person from "@/assets/PNGs/person.jpeg"
   import Plus from "@/assets/SVGs/plus.svelte";
   import ArrowDown from "@/assets/SVGs/navbar/arrowDown.svelte";
+  import Dotted from "@/assets/SVGs/navbar/dotted.svelte";
 </script>
 
+<div class="flex flex-col w-full mb-12" >
 <navbar class="w-full flex items-center p-4 justify-between min-h-[73px]">
   <section class="flex items-center justify-center gap-2">
     <Logo />
@@ -34,3 +36,5 @@
     </section>
   </section>
 </navbar>
+<Dotted />
+</div>
